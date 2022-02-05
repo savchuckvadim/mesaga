@@ -1,20 +1,22 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Header from './components/header';
+import Main from './components/main';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
        
-        <a
+        <p
           className="App-link"
-          href="#"
-          
-          rel="noopener noreferrer"
+
         >
           Messaga
-        </a>
-      </header>
+        </p>
+      </header> */}
+      <Header/>
+      <Main/>
     </div>
   );
 }
